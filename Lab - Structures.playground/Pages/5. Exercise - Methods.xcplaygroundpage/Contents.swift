@@ -28,8 +28,9 @@ struct Post {
     }
 }
 
-let p = Post(post.like())
-
+var p = Post(message: "String", likes: 3, numberOfComments: 33)
+p.like()
+print(p)
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Workout Functions](@next)
  */
